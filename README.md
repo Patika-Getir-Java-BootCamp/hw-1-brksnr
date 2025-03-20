@@ -11,13 +11,13 @@ Object-Oriented Programming, **nesneler kullanılarak gerçekleştirilen**, işl
 - **Esneklik ve Genişletilebilirlik:** Çok biçimlilik (Polymorphism) sayesinde farklı nesneleri aynı arayüzle işleyebiliriz.  
 - **Güvenlik:** Kapsülleme (Encapsulation) sayesinde veriler korunur ve dışarıdan müdahale edilmesi engellenir.  
 
-## OOP PRINCIPLES  
+## OOP PRENSİPLERİ  
 - **Encapsulation (Kapsülleme):** Verileri ve işlevleri tek bir birimde toplamak ve dışarıya yalnızca gerekli olanları sunmak.  
 - **Inheritance (Kalıtım):** Mevcut bir sınıftan yeni bir sınıf türeterek kodun tekrar kullanılabilirliğini sağlamak.  
 - **Polymorphism (Çok Biçimlilik):** Aynı işlevin farklı sınıflar tarafından farklı şekillerde gerçekleştirilmesi.  
 - **Abstraction (Soyutlama):** Gereksiz detayları gizleyip, yalnızca önemli kısımları ön plana çıkarmak.
   
-## Some major OOP languages  
+## BAZI OOP DİLLERİ  
 - **Java**  
 - **C++**  
 - **Python**  
@@ -135,10 +135,10 @@ Performans: Bazı durumlarda, immutable nesnelerin hashCode gibi değerleri cach
 ## 8 - Composition and Aggregation means and differences ?
 
 Composition Nedir?
-Composition, bir nesnenin başka nesnelerden oluştuğu, yani parçaların bütünü oluşturduğu durumdur. Bu ilişkide, parçalar bütüne sıkı sıkıya bağlıdır. Örneğin, bir araba düşünün; motor, tekerlek gibi parçalar arabayı oluşturur. Eğer araba yok olursa, bu parçaların da işlevselliği ortadan kalkar çünkü onlar arabaya ait olup, onun yaşam döngüsüne bağlıdır.
+- Composition, bir nesnenin başka nesnelerden oluştuğu, yani parçaların bütünü oluşturduğu durumdur. Bu ilişkide, parçalar bütüne sıkı sıkıya bağlıdır. Örneğin, bir araba düşünün; motor, tekerlek gibi parçalar arabayı oluşturur. Eğer araba yok olursa, bu parçaların da işlevselliği ortadan kalkar çünkü onlar arabaya ait olup, onun yaşam döngüsüne bağlıdır.
 
 Aggregation Nedir?
-Aggregation ise, nesneler arasında daha gevşek bir ilişkiyi ifade eder. Bu ilişki, “sahiplik” (has-a relationship) anlamına gelir ama bileşenler bütünden bağımsız olarak varlıklarını sürdürebilir. Mesela, bir sınıf ile öğrenciler arasındaki ilişkiyi ele alalım. Sınıf, öğrencileri içerir; fakat sınıf kapandığında öğrenciler varlıklarını kaybetmez. Öğrenciler bağımsız varlıklar olarak başka sınıflarda da bulunabilirler.
+- Aggregation ise, nesneler arasında daha gevşek bir ilişkiyi ifade eder. Bu ilişki, “sahiplik” (has-a relationship) anlamına gelir ama bileşenler bütünden bağımsız olarak varlıklarını sürdürebilir. Mesela, bir sınıf ile öğrenciler arasındaki ilişkiyi ele alalım. Sınıf, öğrencileri içerir; fakat sınıf kapandığında öğrenciler varlıklarını kaybetmez. Öğrenciler bağımsız varlıklar olarak başka sınıflarda da bulunabilirler.
 
 Composition ve Aggregation Arasındaki Farklar
 Bağımlılık Derecesi:
