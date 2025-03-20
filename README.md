@@ -56,7 +56,8 @@ hashCode metodu ise, bir nesneyi hash tablosuna yerleştirebilmek için kullanı
 Neden İhtiyacımız Var?
 - equals metodu, nesnelerin içeriği açısından karşılaştırılmasını sağlar. Eğer iki nesne aynı veriye sahip oluyorsa, equals metodu doğru şekilde implement edilmemişse, bu iki nesne birbirinden farklı kabul edilebilir ve yanlış sonuçlar alınabilir.
 
-- hashCode metodu, nesnelerin hash tablosunda düzgün şekilde yerleştirilmesini sağlar. Eğer equals metodu eşit olan nesneleri doğru bir şekilde kontrol etmiyorsa, hashCode metodu da hatalı çalışabilir ve bu da veri yapılarının doğru çalışmamasına neden olabilir. - - - - Özellikle HashMap ve HashSet gibi koleksiyonlarda, eşit nesnelerin aynı yeri paylaşması gerektiği için hashCode metodunun doğru implementasyonu önemlidir.
+- hashCode metodu, nesnelerin hash tablosunda düzgün şekilde yerleştirilmesini sağlar. Eğer equals metodu eşit olan nesneleri doğru bir şekilde kontrol etmiyorsa, hashCode metodu da hatalı çalışabilir ve bu da veri yapılarının doğru çalışmamasına neden olabilir. 
+- Özellikle HashMap ve HashSet gibi koleksiyonlarda, eşit nesnelerin aynı yeri paylaşması gerektiği için hashCode metodunun doğru implementasyonu önemlidir.
 
 Ne Zaman override Edilmeli?
 - Eğer bir nesne, içerik bazlı karşılaştırma yapmanız gereken bir durumda kullanılacaksa, yani equals metodunu düzgün çalıştırmanız gerekiyorsa, o zaman equals metodunu override etmelisiniz.
